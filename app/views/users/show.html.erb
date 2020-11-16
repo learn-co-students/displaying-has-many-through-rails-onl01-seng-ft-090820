@@ -1,5 +1,7 @@
+# app/views/users/show.html.erb
+ 
 <h2><%= @user.username %> </h2> has commented on the following posts:
-
+ 
 <% @user.posts.each do |post| %>
   <%= link_to post.title, post_path(post) %>
 <% end %>
