@@ -1,4 +1,4 @@
-
+Submit
 # Displaying Has Many Through Rails
 
 ## Objectives
